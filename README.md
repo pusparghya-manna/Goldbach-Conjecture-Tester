@@ -17,28 +17,6 @@ Designed & developed by **Pusparghya**.
 - **Responsive** — works on desktop and mobile
 - **Zero dependencies** — one HTML file; the only external requests are Google Fonts
 
-## Usage
-
-Open `goldbach-conjecture-tester.html` in any modern browser — that's it.
-
-### Run locally
-
-```bash
-git clone <your-repo-url>
-cd <repo-name>
-# then just open the file, or serve it:
-python3 -m http.server 8000
-# visit http://localhost:8000/goldbach-conjecture-tester.html
-```
-
-### Deploy
-
-Because it's a single static file, any static host works:
-
-- **GitHub Pages** — push the repo, enable Pages on the branch, done
-- **Netlify / Vercel / Cloudflare Pages** — drag-and-drop the file or connect the repo
-- Any web server — copy the file anywhere and link to it
-
 ## How it works
 
 The page is a faithful browser conversion of a small Python CLI program. The logic is preserved line for line:

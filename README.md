@@ -35,22 +35,6 @@ The first `(a, b)` found where both are prime is the answer. In first-pair mode 
 | First pair | even integers, 4 – 999,999,999,999 |
 | All pairs | even integers, 4 – 200,000 |
 
-The limits keep the search snappy with trial division (≈ √n work per primality test).
-
-## Project structure
-
-```
-.
-├── goldbach-conjecture-tester.html   # the entire site (HTML + CSS + JS)
-└── README.md
-```
-
-## Tech
-
-- Plain HTML, CSS, and vanilla JavaScript — no framework, no build tooling
-- [Instrument Serif](https://fonts.google.com/specimen/Instrument+Serif), [Crimson Pro](https://fonts.google.com/specimen/Crimson+Pro) & [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono) via Google Fonts (with system fallbacks)
-- All computation happens client-side; nothing is sent anywhere
-
-## Background
+### Background
 
 The Goldbach conjecture is one of the oldest unsolved problems in number theory. It has been verified computationally for every even number up to 4 × 10¹⁸, and no counterexample has ever been found — yet no proof exists either. This site lets you check a few cases yourself.
